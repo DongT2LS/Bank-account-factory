@@ -8,6 +8,9 @@ public class MBBankAccount implements BankAccount{
         this.pin = pin;
     }
 
+    /*
+    * Đăng ký MBBank vào trong danh sách các Bank
+    */
     static {
         AccountFactory.createBank("MBBank", MBBankAccount.class);
     }
